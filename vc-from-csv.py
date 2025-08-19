@@ -16,7 +16,7 @@ DIR_CURRENT = os.getcwd()
 args = argparse.ArgumentParser()
 args.add_argument('--csv', type=str, dest='file', required=True, help='Path to csv file to process with column: tts')
 args.add_argument('--ref-wav', type=str, dest='ref_wav_file', default=DIR_CURRENT + "/examples/basic/basic_ref_en.wav", required=False, help='Path to wav file to clone')
-args.add_argument('--ref-txt', type=str, dest='ref_txt', default="some call me nature, others call me mother nature.", required=False, help='Path to txt file with transcription of --ref_wav_file')
+args.add_argument('--ref-txt', type=str, dest='ref_txt', default="some call me nature, others call me mother nature.", required=False, help='Text transcription of --ref-wav')
 args = args.parse_args()
 
 if not os.path.isfile(args.file):
