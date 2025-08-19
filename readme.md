@@ -18,7 +18,7 @@ Or use this page for getting of latest or specified version of torch:
 
 > python vc-from-csv.py --csv "/<path_to_repo>/samples.csv" --ref-wav "/<path_to_repo>/examples/my-voice-emotioned-clean.wav"
 
-> python vc-from-csv.py --csv "/<path_to_repo>/examples/samples.csv" --ref-wav "/<path_to_repo>/examples/untitled.wav"
+> python vc-from-csv.py --csv "/<path_to_repo>/examples/samples.csv" --ref-wav "/<path_to_repo>/examples/untitled.wav" --ref-txt "some call me nature, others call me mother nature"
 
 - See csv file example > examples/samples.csv
 
